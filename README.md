@@ -10,7 +10,7 @@
 
 #### 대회 주제 : COVID-19로 변화된 대학 생활을 개선할 수 있는 창의적이고 혁신적인 소프트웨어 자유 개발
 
-![대표캐릭터_옹심이](https://github.com/zladb/hackathon_2021/commit/92cfcfc652a60d2ae24fe799c79c02e3aad27c4f)
+![대표캐릭터_옹심이](https://github.com/zladb/hackathon_2021/blob/main/%EA%B7%B8%EB%A6%BC1.png?raw=true)
 
 ##### 옹심이 - 경북대학교 재학생 간 도움 및 심부름 대행 플랫폼
 - 사용 대상 : 경북대학교 재학생

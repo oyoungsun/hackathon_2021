@@ -58,7 +58,7 @@
  구현 방법 : 글쓰기 페이지를 통해 작성된 글이 TEXT_DATA/사용자ID 버킷에 저장되면, 거기서 title과 content 값을 들고와서 출력 됨
  기본 정렬 방식은 Text_Data의 태그의 가나다순에 따라 정렬시켜 관리하였고  목록 출력시에는 최근에 작성된 순서에 따라 정렬하였다.
 
- 
+ Text_data : 
 <img width="806" alt="text (2)" src="https://user-images.githubusercontent.com/63745627/126637923-a37f5fdf-642c-4fee-8b64-043208d1d6f1.png">
 
 
@@ -76,8 +76,8 @@
  공유하기 버튼은 sns와 연동하여 정보 보내기가 가능하다. sns를 앱과 연동하여 텍스트 문자형식으로 정보를 
    보낸다. 이때에도 패킷의 주소는 위와 동일하고 태그값의 정보들과 함께 [웹발신]-도와줘요 옹심이!이 항상 같이 상대에게 발송된다.
    
-  user_data : 
-<img width="1280" alt="user2" src="https://user-images.githubusercontent.com/63745627/126642359-0230df17-65e3-460c-8449-6b294cf8ff63.png">
+ user_data : 
+![image](https://user-images.githubusercontent.com/63745627/126643570-ae7d9fad-6ce5-4a4c-8683-26248c18e549.png)
 
 
  ###### 4. 1:1 채팅
@@ -89,7 +89,8 @@
  유저는 회원가입을 하면서 각자 고유한 세자리 번호(100~999)를 가지게 되는데, 채팅하기 버튼을 누르면 유저A와 B의 고유번호 두개를 해시함수에 넣어서 채팅방 태그를 하나 뽑아냄.
  해시함수는 다음과 같이 두 숫자를 곱해서 1000으로 나눈 나머지를 결과 값으로 함. (A_고유번호 * B_고유번호)%1000
  
- <img width="1280" alt="chat (2)" src="https://user-images.githubusercontent.com/63745627/126637941-84f0761d-496a-421c-acbc-10480bb7b7a8.png">
+chat_data
+<img width="926" alt="chat" src="https://user-images.githubusercontent.com/63745627/126643722-8ecc0022-50b2-486a-910a-468613a52b6f.png">
 
  
  ###### 5. 검색: 키워드를 입력하면 해당 글이 검색됨.

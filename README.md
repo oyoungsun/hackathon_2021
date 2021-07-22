@@ -27,6 +27,11 @@
 
 ### 제품 설명
 
+사용 툴은 기본적으로 java를 이요하였고 초기 gui, 페이지 연결, Database 연결은 시간을 단축하기 위해 앱인벤터를 이용해 구성하였다. 이후 기능 구현은 apk를 decompile해 java파일의 함수를 구현하였다.
+데이터베이스는 fireDataBase를 사용하였다.
+
+<img width="1029" alt="전체" src="https://user-images.githubusercontent.com/63745627/126637715-6a5c44aa-f128-4edb-86c2-4344a7bb19d0.png">
+
  ###### 1. 로그인 화면
  
 ![이미지1](https://user-images.githubusercontent.com/63745627/126635655-29b1e6ee-a6e8-4710-9c58-2e8370e8db34.jpg)
@@ -38,7 +43,8 @@
 
  사용자명, 비밀번호, 이름, 나이, 단과대 등을 입력하고, 학생증 인증 과정을 거쳐 신원이 확인되면 회원가입이 완료됨. 데이터 베이스의 USER_DATA 버킷에 각각의 태그로 정보가 저장됨.
  
- 이미지 : user_data
+<img width="926" alt="user" src="https://user-images.githubusercontent.com/63745627/126637902-df83c9af-f7c5-41fa-a1a2-188f5f75e7ca.png">
+
 
  ###### 2. 메인 홈
 
@@ -47,8 +53,10 @@
  기능 : main페이지에는 가장 최근에 작성된 5개의 심부름 목록이 나타나며, 필터를 통해 정렬 및 검색을 할 수 있음. 글쓰기 버튼을 누르면 write페이지로, 글 목록을 누르면 Screen2페이지로 이동됨.
  
  구현 방법 : 글쓰기 페이지를 통해 작성된 글이 TEXT_DATA/사용자ID 버킷에 저장되면, 거기서 title과 content 값을 들고와서 출력 됨
+ 
+<img width="806" alt="text (2)" src="https://user-images.githubusercontent.com/63745627/126637923-a37f5fdf-642c-4fee-8b64-043208d1d6f1.png">
 
-이미지 : text_data
+
 
  ###### 3. 상세 페이지
 
@@ -58,13 +66,16 @@
  구현 방법 : TEXT_DATA/사용자ID 버킷에 저장된 더 상세한 정보(위치, 가격, 자세한 의뢰 내용)를 출력함.
 
  ###### 4. 1:1 채팅
-이미지5
+ 
+![이미지5](https://user-images.githubusercontent.com/63745627/126636981-7b1aab86-8b6d-4687-a569-9c91b432a35c.jpg)
+
  기능 : 의뢰자와 1:1 채팅을 통해 자세한 의뢰 내용과 일정, 수당을 조정할 수 있음. 
  제작 방법 : 채팅 내역은 텍스트 박스안에 글을 적고 send 버튼을 눌렀을 때, 데이터베이스의 CHAT 버킷 아래 두 사람 간의 고유한 채팅방 태그 안에 저장됨.
  유저는 회원가입을 하면서 각자 고유한 세자리 번호(100~999)를 가지게 되는데, 채팅하기 버튼을 누르면 유저A와 B의 고유번호 두개를 해시함수에 넣어서 채팅방 태그를 하나 뽑아냄.
  해시함수는 다음과 같이 두 숫자를 곱해서 1000으로 나눈 나머지를 결과 값으로 함. (A_고유번호 * B_고유번호)%1000
  
- 이미지 : chat_data
+ <img width="1280" alt="chat (2)" src="https://user-images.githubusercontent.com/63745627/126637941-84f0761d-496a-421c-acbc-10480bb7b7a8.png">
+
  
  ###### 5. 검색: 키워드를 입력하면 해당 글이 검색됨.
 

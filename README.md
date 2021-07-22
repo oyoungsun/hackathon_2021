@@ -15,7 +15,7 @@
 .
 
 <img src="https://github.com/zladb/hackathon_2021/blob/main/%EA%B7%B8%EB%A6%BC1.png?raw=true" width="150" height="150"/>
-:__대표 캐릭터 옹심이__
+:_대표 캐릭터 옹심이_
 
 ##### 옹심이 - 경북대학교 재학생 간 도움 및 심부름 대행 플랫폼
 - 사용 대상 : 경북대학교 재학생

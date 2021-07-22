@@ -34,8 +34,6 @@
 사용 툴은 기본적으로 java를 이요하였고 초기 gui, 페이지 연결, Database 연결은 시간을 단축하기 위해 앱인벤터를 이용해 구성하였다. 이후 기능 구현은 apk를 decompile해 java파일의 함수를 구현하였다.
 데이터베이스는 fireDataBase를 사용하였다.
 
-<img width="1029" alt="전체" src="https://user-images.githubusercontent.com/63745627/126637715-6a5c44aa-f128-4edb-86c2-4344a7bb19d0.png">
-
  ###### 1. 로그인 화면
  
 ![이미지1](https://user-images.githubusercontent.com/63745627/126635655-29b1e6ee-a6e8-4710-9c58-2e8370e8db34.jpg)

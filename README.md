@@ -14,13 +14,12 @@
 .
 .
 
-<img src="https://github.com/zladb/hackathon_2021/blob/main/%EA%B7%B8%EB%A6%BC1.png?raw=true" width="150" height="150"/>
-_대표 캐릭터 옹심이_
-
 ##### 옹심이 - 경북대학교 재학생 간 도움 및 심부름 대행 플랫폼
 - 사용 대상 : 경북대학교 재학생
 - 심부름, 물품 대여 등 도움이 필요할 때 같은 경북대 재학생에게 부탁하고 코인을 지불하는 (심부름 대행)서비스 제공 어플리케이션
-
+.
+<img src="https://github.com/zladb/hackathon_2021/blob/main/%EA%B7%B8%EB%A6%BC1.png?raw=true" width="150" height="150"/>
+_대표 캐릭터 옹심이_
 
 - - -
 

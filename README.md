@@ -29,7 +29,7 @@
 ### 시연 영상
 
 https://youtu.be/ePp8jm7rieU
-
+사용방법 : 첨부된 chatpro.apk 파일을 휴대폰(안드로이드 권장)에 설치하여 사용.
 ### 제품 설명
 
 사용 툴은 기본적으로 java를 이요하였고 초기 gui, 페이지 연결, Database 연결은 시간을 단축하기 위해 앱인벤터를 이용해 구성하였다. 이후 기능 구현은 apk를 decompile해 java파일의 함수를 구현하였다.
